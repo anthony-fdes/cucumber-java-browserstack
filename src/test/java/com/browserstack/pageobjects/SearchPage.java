@@ -18,7 +18,8 @@ public class SearchPage {
     }
 
     public void submitSearch() {
-        webDriver.findElement(submitSearch).click();
+//         webDriver.findElement(submitSearch).click();
+        webDriver.sendKeys(Keys.ENTER);
     }
 
 }
