@@ -32,6 +32,7 @@ public class SearchSteps {
 
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("browser", System.getProperty("browser"));
+        caps.setCapability("build", "SUP 515 - Parallel Testing [JAVA Cucumber]");
 
         if (System.getProperty("local") != null && System.getProperty("local").equals("true")) {
             caps.setCapability("browserstack.local", "true");
