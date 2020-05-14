@@ -2,6 +2,7 @@ package com.browserstack.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.Keys;
 
 public class SearchPage {
     private static WebDriver webDriver;
